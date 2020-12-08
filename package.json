@@ -1,0 +1,33 @@
+{
+  "name": "@telemetry-js/processor-ecs-tags",
+  "version": "0.1.1",
+  "description": "Add 'cluster', 'region', 'name' and 'image' tags to metrics",
+  "license": "MIT",
+  "author": "Vincent Weevers",
+  "scripts": {
+    "test": "standard && hallmark && node test"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "hallmark": "^3.1.0",
+    "nock": "^11.8.2",
+    "standard": "^14.3.4",
+    "tape": "^4.9.1"
+  },
+  "repository": "telemetry-js/processor-ecs-tags",
+  "bugs": "https://github.com/telemetry-js/processor-ecs-tags/issues",
+  "homepage": "https://github.com/telemetry-js/processor-ecs-tags",
+  "keywords": [
+    "metrics",
+    "measurements",
+    "telemetry"
+  ],
+  "engines": {
+    "node": ">=6"
+  }
+}
