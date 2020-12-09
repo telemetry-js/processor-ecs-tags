@@ -3,7 +3,7 @@
 > **Add `cluster`, `region`, `name` and `image` tags to metrics. Fetched from ECS Task Metadata Endpoint [V2](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task-metadata-endpoint-v2.html) or [V3](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task-metadata-endpoint-v3.html). Only works in an ECS container.**  
 > A [`telemetry`](https://github.com/telemetry-js/telemetry) plugin.
 
-[![npm status](http://img.shields.io/npm/v/telemetry-js/processor-ecs-tags.svg)](https://www.npmjs.org/package/@telemetry-js/processor-ecs-tags)
+[![npm status](http://img.shields.io/npm/v/@telemetry-js/processor-ecs-tags.svg)](https://www.npmjs.org/package/@telemetry-js/processor-ecs-tags)
 [![node](https://img.shields.io/node/v/@telemetry-js/processor-ecs-tags.svg)](https://www.npmjs.org/package/@telemetry-js/processor-ecs-tags)
 [![Test](https://github.com/telemetry-js/processor-ecs-tags/workflows/Test/badge.svg?branch=main)](https://github.com/telemetry-js/processor-ecs-tags/actions)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
@@ -44,7 +44,7 @@ npm install @telemetry-js/processor-ecs-tags
 
 ## Acknowledgements
 
-This project is kindly sponsored by [Reason Cybersecurity Inc](https://reasonsecurity.com).
+This project is kindly sponsored by [Reason Cybersecurity Ltd](https://reasonsecurity.com).
 
 [![reason logo](https://cdn.reasonsecurity.com/github-assets/reason_signature_logo.png)](https://reasonsecurity.com)
 

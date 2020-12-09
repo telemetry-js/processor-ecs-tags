@@ -98,7 +98,7 @@ class Processor extends EventEmitter {
         }
 
         // TODO (!): remove once tested in ECS
-        console.error('telemetry-processor-ecs-tags: metadata JSON for the container')
+        console.error('processor-ecs-tags: metadata JSON for the container')
         console.error(require('util').inspect(body, { depth: null }))
 
         tags.name = body.Name
